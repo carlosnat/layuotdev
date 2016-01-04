@@ -1,0 +1,273 @@
+body, html, main {
+  height: 100%;
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+.row{
+  margin-bottom: 0px !important;
+}
+
+/* ----------- Seccion Header ------------------- */
+.main-nav{
+  background-color: rgba(238, 110, 115, 0);
+  box-shadow: 0 0px 0px 0 rgba(0,0,0,0),0 0px 0px 0 rgba(0,0,0,0) !important;
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+  height: 80px ;
+  line-height: 79px ;
+}
+
+.nav-wrapper > ul > li > a{
+  color:white;
+  font-size: 1.2em;
+}
+.nav-wrapper > ul > li > a:hover{
+  border-bottom: #00C7F4;
+  border-bottom-style: solid;
+  color: #00C7F4;
+}   
+.logo{
+  width: 214px;
+}
+.btn-more-info{
+  position: absolute;
+  top: 61%;
+  left: 45%;
+  border-radius: 7%;
+  background-color: #00AEEF;
+}
+.btn-more-info:hover{
+  background-color: #2F1273;
+}
+.main-carousel-title{
+  position: absolute;
+  color: white;
+  width: 50%;
+  text-align: center;
+  left: 25%;
+  font-size: 4.3em;
+  top: 34%
+}
+/* ----------  Seccion servicios vista :: mobiles ----------- */
+.service-mobile{
+  padding: 16px;
+
+}
+.service-mobile-header{
+  text-align: center;
+}
+/* ----------- Seccion servicios vista :: escritorios ------- */
+.rect-service{
+  -webkit-transform: rotate(-45deg);
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+.rect{
+  position: relative;
+  float: left;
+  margin: 30px;
+  height: 140px;
+  width: 140px;
+  background-color: #67C0FF;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.rect2{
+  position: relative;
+  top: -100px;
+  left: -100px;
+  float: left;
+  margin: 30px;
+  height: 140px;
+  width: 140px;
+  background-color: #67C0FF;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.rect3{
+  position: relative;
+  top: -200px;
+  float: left;
+  margin: 30px;
+  height: 140px;
+  width: 140px;
+  background-color: #67C0FF;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.rect:hover, .rect2:hover, .rect3:hover{
+  background-color: #2C0870;
+}
+.servicios-exp{
+  height: 500px;
+  padding: 0px 0px 0px 70px;
+  position: absolute;
+  top: 144%;
+  z-index: 888;
+}
+.icon-service{
+  position: absolute;
+  top: -15px;
+  left: -13px;
+  color: white;
+}
+.text-rect-service{
+  position: absolute;
+  left: -75px;
+  top: 16px;
+  width: 150px;
+  font-size: 0.9em;
+  height: auto;
+  text-align: center;
+  color: white;
+}
+/* --------------- Seccion nosotros ------------------ */
+.us-div{
+  color: white;
+  background-color: rgb(46, 165, 229);
+}
+.us-div > h1 {
+  padding: 52px 120px 0px 120px;
+}
+.us-div > h3{
+  padding: 0px 120px 0px 120px;
+}
+.us-div > p{
+  padding: 0px 120px 0px 120px;
+}
+
+/* --------------- Seccion nosotros :: carrusel ------------------ */
+.img-team{
+  border-radius: 50%;
+}
+.team-space{
+  padding-top: 52px;
+  padding-bottom: 52px;
+}
+.item > ul{
+  display: inline-flex;
+  margin: 0 auto;
+  margin-bottom: 0;
+}
+.item > ul > li{
+  margin-right: 7px;
+  margin-left: 7px;
+}
+.team-social{
+  width: 36px;
+  height: 36px;
+  background: #6E4BAE;
+  padding-top: 6px;
+  border-radius: 50%;
+}
+.team-social:hover{
+  background: #444242;
+}
+.team-head{
+  padding-left: 127px;
+  padding-right: 127px;
+}
+/* ----------------- Seccion portafolio -------------- */
+.materialboxed{
+  margin: 0 auto;
+}
+.porta-space{
+  padding-top: 52px;
+  padding-bottom: 52px;
+  background-color: rgb(46, 165, 229);
+  color: white;
+}
+.button-group{
+  text-align: center;
+  margin-bottom: 52px;
+  margin-top: 25px;
+}
+.button-group > button{
+  background: none;
+  border: #41227E;
+  border-style: solid;
+  border-width: 1px;
+  color: #2C0870;
+}
+.button.is-checked{
+  background: #5D36A3;
+  border: #5D36A3;
+  border-style: solid;
+  border-width: 1px;
+  color: #FFFFFF;
+}
+.text-work{
+  font-size: 1.5em;
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+.element-item { 
+  width: 25%; height: 300px; padding: 7px;
+}
+/* ----------------- Seccion Contactenos ------------------- */
+#map {
+  height: 350px;
+}
+.contact-space{
+  padding-bottom: 25px;
+  padding-top: 25px;
+  padding-left: 52px;
+  padding-right: 52px;
+  background-image: url('img/fondo-servicios.jpg');
+  background-repeat: no-repeat;
+  background-position: inherit;
+  background-size: cover;
+}
+.direccion{
+  width: 30%;
+  position: relative;
+  display: block;
+  top: -269px;
+  left: 10px;
+  background: white;
+  padding: 15px 30px;
+}
+.btn-msg{
+  background-color: #00AEEF;
+}
+.btn-msg:hover{
+  background-color: #2B0770;
+}
+/* --------------------- Seccion footer --------------------- */
+.page-footer{
+  margin-top: 0px !important;
+}
+footer.page-footer{
+  background-color: #2EA5E5 !important;
+}
+/* ------------------- Boton para scroll to top ------------- */
+.scrollToTop{
+  z-index: 99999;
+  width:100px; 
+  height:130px;
+  padding:10px; 
+  text-align:center; 
+  background: whiteSmoke;
+  font-weight: bold;
+  color: #444;
+  text-decoration: none;
+  position:fixed;
+  top: 87%;
+  right: 1%;
+  display:none;
+  background: url('http://i1155.photobucket.com/albums/p559/scrolltotop/arrow88.png') no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+  text-decoration:none;
+}
